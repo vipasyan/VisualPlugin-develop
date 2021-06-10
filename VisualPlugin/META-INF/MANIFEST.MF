@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: VisualPlugin;singleton:=true
+Bundle-Version: 1.0.0.v20210610
+Automatic-Module-Name: visualplugin
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: VisualPlugin.Activator
+Require-Bundle: org.eclipse.osgi
+Import-Package: javax.xml.bind;version="[0.0.0,2.3.3)"
