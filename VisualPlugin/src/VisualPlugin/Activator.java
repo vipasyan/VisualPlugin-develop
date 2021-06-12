@@ -6,7 +6,10 @@ import org.osgi.framework.BundleContext;
 public class Activator implements BundleActivator {
 
 	public static void main(String[] args) {
+	
 		// TODO Auto-generated method stub
+		
+		System.out.println("Welcome to Visulization");
 
 	}
 
@@ -21,5 +24,6 @@ public class Activator implements BundleActivator {
 		// TODO Auto-generated method stub
 
 	}
+	
 
 }
