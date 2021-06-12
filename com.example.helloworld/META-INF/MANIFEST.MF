@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Helloworld
+Bundle-SymbolicName: com.example.helloworld;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EXAMPLE
+Require-Bundle: org.eclipse.ui,
+ org.junit,
+ org.junit.jupiter.api,
+ org.eclipse.core.runtime;bundle-version="3.20.100"
+Automatic-Module-Name: com.example.helloworld
+Bundle-RequiredExecutionEnvironment: JavaSE-15

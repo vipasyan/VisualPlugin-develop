@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.example.feature"
+      label="Hello World! Feature"
+      version="1.0.0.qualifier"
+      provider-name="EXAMPLE">
+
+   <description url="http://www.example.com/description">
+      [Hello, Eclipse world! feature description]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [(c) 2021]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Hello, Eclipse world! license agreement]
+   </license>
+
+   <plugin
+         id="com.example.helloworld"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
